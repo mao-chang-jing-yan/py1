@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<a href="http://book.ucdrs.superlib.net/readDetail.jsp?dxNumber=000030420511&amp;d=A6DEC2044AA59E8685BE82ABB51785C2&amp;timestr=1609250754100" onclick="statjz();" target="_blank">213</a>
+
+</body>
+
+<script type="text/javascript">
+    var adid="689";
+    var groupid = "431";
+    function statjz(){
+        if(groupid!='10' && groupid != '895') {
+            return;
+        }
+        var parm={type:'4',vr:'2',vi:'',aid:adid,uid:'10',usrname:'0'};
+        jQuery.getJSON("http://tongji.duxiudsr.com:8011/admin/v.action?jsoncallback=?",parm,function(data) {
+            console.log(data)
+        });
+    }
+</script>
+
+</html>

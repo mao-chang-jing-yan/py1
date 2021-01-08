@@ -1,0 +1,32 @@
+POST http://182.61.144.236/mysql_select.php
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element&sql=insert into user_eva_book(user_id,book_id,eva) values(1,49,34423)
+
+###
+GET http://182.61.144.236/a.php
+Accept: application/json
+
+###
+GET http://tongji.duxiudsr.com:8011/admin/v.action?jsoncallback=?type=4&vr=2&vi=&aid=689&uid=10&username=0&url=/readDetail.jsp?dxNumber=000030461330&amp;d=0D370803349D0E706C1B04998E8080A1&amp;timestr=1609259788874
+
+Accept: application/json
+
+###
+#url=http://book.ucdrs.superlib.net/readDetail.jsp?dxNumber=000030461330&amp;d=0D370803349D0E706C1B04998E8080A1&amp;timestr=1609259788874
+#
+#	//<![CDATA[
+#	function first554(){
+#		var form554= document.getElementById("form554");
+#		form554.submit();
+#	}
+#	function statjz(){
+#		if(groupid!='10' && groupid != '895') {
+#			return;
+#		}
+#		var parm={type:'4',vr:'2',vi:'',aid:adid,uid:'10',usrname:'0'};
+#		jQuery.getJSON("http://tongji.duxiudsr.com:8011/admin/v.action?jsoncallback=?",parm,function(data) {});
+#	}
+#	//]]>
+#
+#<a onclick="statjz();" href="/readDetail.jsp?dxNumber=000030461330&amp;d=0D370803349D0E706C1B04998E8080A1&amp;timestr=1609259788874" target="_blank"><img src="images/readtest1.gif" width="61" height="19"></a>
