@@ -161,3 +161,6 @@ t = t.iloc[13:21, :]
 
 def get_():
     return t
+
+a = []
+a[1:2]
